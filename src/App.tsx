@@ -2,14 +2,13 @@ import {
   ChakraProvider,
 } from '@chakra-ui/react'
 import { Layout } from './components/Layout';
-import { Login } from './components/Login';
-import { SingUp } from './components/SingUp';
+import { CardLogin } from './components/CardLogin';
 
 function App() {
   return (
     <ChakraProvider>
       <Layout>        
-          <Login />      
+          <CardLogin/>      
       </Layout>
     </ChakraProvider>
   );
