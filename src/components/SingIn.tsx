@@ -13,7 +13,7 @@ import { login } from "../services/login";
 
 export const SingIn = () => {
   return (
-    <Flex direction='column' gap='3' justify='center' >
+    <Flex direction='column' gap='3' justify='center' mt={50}>
       <Spacer />
       <FormControl variant="floating" id="email">
         <Input placeholder='' type="email" />
