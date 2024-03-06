@@ -1,5 +1,5 @@
 import {
-  Box,
+  Text,
   Button,
   Center,
   Flex,
@@ -13,7 +13,8 @@ import { login } from "../services/login";
 
 export const SingIn = () => {
   return (
-    <Flex direction='column' gap='3' justify='center' mt={50}>
+    <Flex direction='column' gap='3' justify='center' mt={30}>
+      <Text fontSize='2xl' fontWeight='bold' textAlign='center'>Login</Text>
       <Spacer />
       <FormControl variant="floating" id="email">
         <Input placeholder='' type="email" />

@@ -21,9 +21,13 @@ export const SingUp = () => {
             <Flex direction='column' gap='3' justify='center'>
                 <Text fontSize='2xl' fontWeight='bold' textAlign='center'>Cadastro</Text>
                 <Spacer />
+                <FormControl variant="floating" id="text">
+                    <Input placeholder='' type="text" />
+                    <FormLabel>Nome</FormLabel>
+                </FormControl>
                 <FormControl variant="floating" id="email">
                     <Input placeholder='' type="email" />
-                    <FormLabel>Nome</FormLabel>
+                    <FormLabel>E-mail</FormLabel>
                 </FormControl>
                 <FormControl variant="floating" id="password">
                     <Input placeholder='' type="password" />

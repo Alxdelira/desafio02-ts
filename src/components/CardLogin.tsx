@@ -51,7 +51,7 @@ import { SingUp } from "./SingUp";
     return (
       <ChakraProvider theme={theme}>
         <Box minHeight='100vh' backgroundColor='#9413dc' display='flex' justifyContent='center' alignItems='center'>
-          <Box backgroundColor='#FFFFFF' borderRadius='25px' w='sm' p='5' h='sm'   >
+          <Box backgroundColor='#FFFFFF' borderRadius='25px' w='sm' p='5' h='1sm'   >
             <Tabs variant='enclosed'>
               <TabList>
                 <Tab>Sing In</Tab>
